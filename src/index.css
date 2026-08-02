@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Be Vietnam Pro', sans-serif;
+  --color-navy-dark: #071923;
+  --color-navy-sec: #0C2734;
+  --color-gold-champagne: #CDA55B;
+  --color-cream-bg: #F5F0E5;
+  --color-text-primary: #14222A;
+  --color-text-secondary: #67747A;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #14222A;
+  background-color: #F5F0E5;
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-sans {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* Custom smooth transitions and arch styles */
+.arch-frame {
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+}
+
+/* Hide scrollbar for photo galleries */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

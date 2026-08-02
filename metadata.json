@@ -1,0 +1,8 @@
+{
+  "name": "Remix Trần Minh Quang - Bất Động Sản TP.HCM",
+  "description": "Landing page mua bán, ký gửi nhà đất cao cấp tại TP.HCM - Trần Minh Quang (0978.295.877)",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
